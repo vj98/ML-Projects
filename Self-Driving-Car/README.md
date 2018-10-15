@@ -9,7 +9,8 @@ Refer the <a href="https://github.com/vj98/ML-Projects/blob/master/Self-Driving-
 4. It is also called as DAVE-2 System by Nvidia
 
 # Demo
-[![Watch the video](https://media.giphy.com/media/28KYnclP09Q1ToG1jl/giphy.gif)]
+<iframe src="https://drive.google.com/open?id=1cfKPTVnS_jUP4R2x5946S5mSdBObZ5XT" frameborder="0" allowfullscreen width="400" height="200"></iframe>
+
 
 # Conclusions from the paper
 1. This demonstrated that CNNs are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control.The system learns for example to detect the outline of a road without the need of explicit labels during training.
