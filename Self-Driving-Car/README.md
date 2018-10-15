@@ -1,5 +1,6 @@
 # Self Driving Car (End to End CNN/Dave-2)
 ![alt_text](http://www.techholic.co.kr/news/photo/201712/172710_136873_1941.jpg)
+
 Refer the <a href="https://github.com/vj98/ML-Projects/blob/master/Self-Driving-Car/Self_driving_car.ipynb">Self Driving Car Notebook</a> for complete Information
 
 1. Used convolutional neural networks (CNNs) to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This powerful end-to-end approach means that with minimum training data from humans, the system learns to steer, with or without lane markings, on both local roads and highways. The system can also operate in areas with unclear visual guidance such as parking lots or unpaved roads.
@@ -8,7 +9,7 @@ Refer the <a href="https://github.com/vj98/ML-Projects/blob/master/Self-Driving-
 4. It is also called as DAVE-2 System by Nvidia
 
 # Demo
-![alt_text](https://imgur.com/wTnGtoL)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/PdyNYD9"><a href="//imgur.com/PdyNYD9"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 # Conclusions from the paper
 1. This demonstrated that CNNs are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control.The system learns for example to detect the outline of a road without the need of explicit labels during training.
@@ -32,9 +33,9 @@ Use `python run_dataset.py` to run the model on the dataset
 To visualize training using Tensorboard use `tensorboard --logdir=./logs`, then open http://0.0.0.0:6006/ into your web browser.
 
 # Some other State of the Art Implementations
-Implementations: https://github.com/udacity/self-driving-car
-Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
+1. Implementations: https://github.com/udacity/self-driving-car
+2. Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
 # Credits & Inspired By
-(1) https://github.com/SullyChen/Autopilot-TensorFlow
-(2) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
+1. https://github.com/SullyChen/Autopilot-TensorFlow
+2. Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
