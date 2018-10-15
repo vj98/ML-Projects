@@ -9,7 +9,7 @@ Refer the <a href="https://github.com/vj98/ML-Projects/blob/master/Self-Driving-
 4. It is also called as DAVE-2 System by Nvidia
 
 # Demo
-<iframe src="https://drive.google.com/open?id=1cfKPTVnS_jUP4R2x5946S5mSdBObZ5XT" frameborder="0" allowfullscreen width="400" height="200"></iframe>
+<a href="https://drive.google.com/open?id=1cfKPTVnS_jUP4R2x5946S5mSdBObZ5XT"></a>
 
 
 # Conclusions from the paper
